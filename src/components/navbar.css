@@ -1,0 +1,66 @@
+/* Navbar.css */
+.navbar {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 10px 0;
+    z-index: 2;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: flex-end; /* Align the icon to the right */
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .nav-toggle {
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 30px;
+    height: 4px;
+    background-color: #ffffff;
+    margin: 6px 0;
+    transition: transform 0.5s ease;
+  }
+  
+  /* Styles for the open menu */
+  .navbar.menu-open .nav-toggle {
+    transform: rotate(20deg); /* Rotate the icon when the menu is open */
+  }
+  
+  .navbar.menu-open .bar {
+    transform: rotate(45deg); /* Rotate the bars to create a close icon effect */
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-right: 1100px;
+    margin-left: 10px; /* Push the logo to the left */
+  }
+  
+  .small-logo {
+    width: 50px; /* Adjust the width to make the logo smaller */
+    height: auto; /* Maintain the aspect ratio */
+    margin-right: 5px; /* Add some spacing between the logo and toggle button */
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      justify-content: space-between; /* Adjust for smaller screens */
+    }
+  
+    .logo {
+      margin-right: 10px; /* Adjust spacing for smaller screens */
+    }
+  
+    .navbar.menu-open .bar {
+      transform: rotate(45deg); /* Adjust bars for smaller screens when menu is open */
+    }
+  
+    /* Add any other responsive styles as needed */
+  }
+
