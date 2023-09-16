@@ -1,8 +1,8 @@
-import React from 'react';
-import './App.css';
-import Navbar from './components/navbar';
-import TopVideo from './components/topvideo';
-import Services from './components/services';
+import React from "react";
+import "./App.css";
+import Navbar from "./components/navbar";
+import TopVideo from "./components/topvideo";
+import Card from "./components/cards";
 
 function App() {
   // const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,8 +15,7 @@ function App() {
       <Navbar />
       <main>
         <TopVideo />
-        <Services/>
-        
+        <Card />
       </main>
     </div>
   );
