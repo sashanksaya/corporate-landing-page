@@ -45,9 +45,11 @@
    */
   
 .card-container{
-  margin-top: 100px;
-  margin-left: 30px;
-  width: 300px;
+  margin-top: 75px;
+  margin-left: 50px;
+  margin-bottom: 25px;
+  padding-top: 10px;
+  width: 500px;
   overflow: hidden;
   transition: 0.5s;
   animation: ease-in;
@@ -64,6 +66,7 @@
 .image-container img{
   overflow: hidden;
   height: 200px;
+  padding-left: 20%;
 }
 
 .card-content{
@@ -81,4 +84,6 @@
   margin-left: 0.5rem;
 }
 
-
+.justify-content-around{
+  padding-right: 10%;
+}
