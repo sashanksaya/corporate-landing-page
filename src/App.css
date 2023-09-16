@@ -10,3 +10,9 @@ body{
     transform: rotate(360deg);
   }
 }
+.container {
+  display: flex;
+  position: relative;
+  float: left;
+}
+
