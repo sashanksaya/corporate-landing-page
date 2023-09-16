@@ -1,6 +1,6 @@
 .text-overlay {
     position: absolute;
-    top: 55px;
+    top: 45px;
     left: 0;
     width: 100%; /* Full viewport width */
     height: 362px; /* Set the desired height */
