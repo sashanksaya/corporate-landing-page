@@ -30,5 +30,16 @@
     position: relative;
     float: left;
   }
+  @media (max-width: 768px) {
+    .services-container {
+      flex-direction: column; /* Stack cards in a column on smaller screens */
+      align-items: center; /* Center-align items on smaller screens */
+    }
+  
+    .service-card {
+      width: 80%; /* Adjust card width for smaller screens */
+    }
+  }
+  
   
   
