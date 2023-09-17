@@ -29,6 +29,47 @@
 //   );
 // }
 
+// import React from "react";
+// import Container from "react-bootstrap/Container";
+// import Row from "react-bootstrap/Row";
+// import Col from "react-bootstrap/Col";
+
+// import "./cards.css";
+// import Service from "./Service";
+// import background from "../images/background.jpg";
+
+// function Card() {
+//   return (
+//     <Container>
+//       <Row>
+//         <Col>
+//           <Service
+//             title="Service"
+//             description="Lorem Ipsum"
+//             background={background}
+//           />
+//         </Col>
+//         <Col>
+//           <Service
+//             title="Service"
+//             description="Lorem Ipsum"
+//             background={background}
+//           />
+//         </Col>
+//         <Col>
+//           <Service
+//             title="Service"
+//             description="Lorem Ipsum"
+//             background={background}
+//           />
+//         </Col>
+//       </Row>
+//     </Container>
+//   );
+// }
+
+// export default Card;
+
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -40,26 +81,26 @@ import background from "../images/background.jpg";
 
 function Card() {
   return (
-    <Container>
-      <Row>
+    <Container fluid>
+      <Row className="justify-content-around">
         <Col>
           <Service
             title="Service"
-            description="Lorem Ipsum"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut est odio. Nam eget pellentesque turpis, consectetur suscipit mi. Quisque lacinia feugiat ullamcorper. Fusce posuere libero dignissim sapien porta lacinia. Curabitur a dictum lectus, eget ultricies elit. In accumsan ex non purus mattis, eu hendrerit nibh mattis."
             background={background}
           />
         </Col>
         <Col>
           <Service
             title="Service"
-            description="Lorem Ipsum"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut est odio. Nam eget pellentesque turpis, consectetur suscipit mi. Quisque lacinia feugiat ullamcorper. Fusce posuere libero dignissim sapien porta lacinia. Curabitur a dictum lectus, eget ultricies elit. In accumsan ex non purus mattis, eu hendrerit nibh mattis."
             background={background}
           />
         </Col>
         <Col>
           <Service
             title="Service"
-            description="Lorem Ipsum"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut est odio. Nam eget pellentesque turpis, consectetur suscipit mi. Quisque lacinia feugiat ullamcorper. Fusce posuere libero dignissim sapien porta lacinia. Curabitur a dictum lectus, eget ultricies elit. In accumsan ex non purus mattis, eu hendrerit nibh mattis."
             background={background}
           />
         </Col>
