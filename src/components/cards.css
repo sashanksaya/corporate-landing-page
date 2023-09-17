@@ -1,15 +1,7 @@
-.cards-container {
-  display: flex;
-  justify-content: center; /* Center cards horizontally */
-  gap: 20px; /* Adjust the spacing between cards */
-  flex-wrap: wrap; /* Allow cards to wrap to the next line on smaller screens */
-}
-
 .card-container {
-  width: calc(33.33% - 20px); /* 33.33% width for each card with spacing */
-  min-width: 200px; /* Minimum width for cards */
-  max-width: 300px; /* Maximum width for cards */
-  height: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 500px;
   overflow: hidden;
   transition: 0.5s;
   animation: ease-in;
@@ -24,13 +16,15 @@
 }
 
 .image-container img {
+  padding-top: 10px;
+  padding-left: 18%;
   overflow: hidden;
-  width: 100%; /* Adjust the image width to fill the container */
-  height: auto; /* Maintain aspect ratio */
+  height: 200px;
 }
 
 .card-content {
-  padding: 1rem;
+  margin: 1rem;
+  margin-top: 0.5rem;
 }
 
 .card-text {
@@ -42,10 +36,3 @@
 .card-title {
   margin-left: 0.5rem;
 }
-
-
-.justify-content-around{
-  padding-right: 8%;
-}
-
-
