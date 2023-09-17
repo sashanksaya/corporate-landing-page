@@ -1,0 +1,51 @@
+/* Footer Container */
+footer {
+    background-color: rgb(42, 41, 41); /* Background color */
+    color: #fff; /* Text color */
+    padding: 20px; 
+    border: 1px solid rgb(44, 44, 44);
+    box-shadow: 5px;/* Padding around the content */
+  }
+  
+  /* Corpify Logo */
+  .corpify-logo img {
+    max-width: 150px; /* Adjust the logo's maximum width */
+    display: block; /* Center the logo horizontally */
+    margin: 0 auto; /* Center the logo horizontally */
+  }
+  
+  /* Footer Links Container */
+  .footer-links {
+    display: flex; /* Display links in a row */
+    justify-content: space-between; /* Space evenly between link groups */
+    margin-top: 20px; /* Add spacing between the logo and links */
+  }
+  
+  /* Footer Link Groups */
+  .link-group {
+    flex: 1; /* Equal width for each link group */
+  }
+  
+  .link-group a {
+    display: block; /* Display links as block elements */
+    color: #fff; /* Text color for links */
+    text-decoration: none; /* Remove underlines from links */
+    margin-bottom: 10px; /* Add spacing between links */
+  }
+  
+  /* Style for the "Products:" label */
+  .link-group span {
+    display: block;
+    font-weight: bold;
+  }
+  @media screen and (max-width: 768px) {
+    .footer-links {
+      flex-direction: row; /* Stack link groups vertically on smaller screens */
+      text-align: center; /* Center-align text */
+    }
+  
+    .link-group {
+      margin-bottom: 20px; /* Add extra spacing between link groups */
+    }
+  }
+  
