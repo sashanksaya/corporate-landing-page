@@ -6,7 +6,8 @@ import Service from "./Service";
 
 function Card(props) {
   return (
-    <Container fluid>
+
+    <>
       <Row className="d-flex justify-content-around">
         <Col>
           <Service
@@ -30,8 +31,10 @@ function Card(props) {
           />
         </Col>
       </Row>
-    </Container>
+    </>
+
   );
 }
 
 export default Card;
+

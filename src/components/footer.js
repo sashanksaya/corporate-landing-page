@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+import logo from '../images/logo.jpeg';
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-md-4">
             <a href="/" className="d-flex align-items-center p-0 text-dark">
-              <img alt="logo" src="logo" width="30px" />
+              <img alt="logo" src={logo} width="40px" />
               <span className="ms-3 h5 font-weight-bold">Corpify</span>
             </a>
             <p className="my-3" style={{ maxWidth: "250px" }}>
