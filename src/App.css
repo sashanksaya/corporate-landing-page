@@ -1,5 +1,11 @@
-body{
+body {
   background-color: black;
+}
+
+.servicesheading {
+  color: white;
+  font-size: 48px;
+  text-align: center;
 }
 
 @keyframes App-logo-spin {
@@ -10,9 +16,53 @@ body{
     transform: rotate(360deg);
   }
 }
-.container {
-  display: flex;
-  position: relative;
-  float: left;
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .servicesheading {
+    font-size: medium; /* Adjust font size for smaller screens */
+  }
+
+  /* Adjust card layout for smaller screens */
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; /* Adjust the spacing between cards for smaller screens */
+  }
+
+  .card-container {
+    width: calc(50% - 20px); /* 50% width for each card with spacing */
+    min-width: 200px; /* Minimum width for cards */
+    max-width: none; /* Remove maximum width */
+  }
 }
 
+/* Media query for screens with a maximum width of 425px (Mobile L) */
+@media (max-width: 425px) {
+  .cards-container {
+    gap: 10px; /* Adjust the spacing between cards for Mobile L */
+  }
+}
+
+/* Media query for screens with a maximum width of 375px (Mobile M) */
+@media (max-width: 375px) {
+  .cards-container {
+    gap: 5px; /* Adjust the spacing between cards for Mobile M */
+  }
+
+  .card-container {
+    width: calc(50% - 10px); /* 50% width for each card with spacing for Mobile M */
+  }
+}
+
+/* Media query for screens with a maximum width of 325px (Mobile S) */
+@media (max-width: 325px) {
+  .cards-container {
+    gap: 5px; /* Adjust the spacing between cards for Mobile S */
+  }
+
+  .card-container {
+    width: calc(100% - 10px); /* Full width for each card with spacing for Mobile S */
+  }
+}

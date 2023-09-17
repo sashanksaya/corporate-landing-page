@@ -1,81 +1,80 @@
 /* Menu.css */
 .menu {
-    background-color: #1a1a1a;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  position: fixed;
+  top: 0;
+  right: -250px;
+  height: 100%;
+  width: 250px;
+  overflow-y: auto;
+  transition: right 0.5s ease;
+  z-index: 3;
+} 
+
+.menu.open {
+  right: 0; 
+}
+  
+  .menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .menu-links {
+    list-style: none;
+    padding: 20px;
+  }
+  
+  .menu-links li {
+    margin: 10px 0;
+  }
+  
+  .menu-links a {
     color: #ffffff;
-    position: fixed;
-    top: 0;
-    right: -250px;
-    height: 100%;
-    width: 250px;
-    overflow-y: auto;
-    transition: right 0.5s ease;
-    z-index: 3;
-  } 
-  
-  .menu.open {
-    right: 0; 
-  }
-    
-    .menu-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 20px;
-    }
-    
-    .menu-links {
-      list-style: none;
-      padding: 20px;
-    }
-    
-    .menu-links li {
-      margin: 10px 0;
-    }
-    
-    .menu-links a {
-      color: #ffffff;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 18px;
-      transition: color 0.3s ease;
-    }
-    
-    .close-button {
-      cursor: pointer;
-      font-size: 24px;
-    }
-    
-  
-    /* Menu.css */
-  .rotate-up {
-    transform: rotate(-45deg);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
   }
   
-  .cross {
-    transform: rotate(0deg);
-    width: 15px; /* Full opacity */
-    transition: opacity 0.5s ease-in-out; /*Include opacity in the transition */
+  .close-button {
+    cursor: pointer;
+    font-size: 24px;
   }
   
-  .rotate-down {
-    transform: translateY(-10px) rotate(45deg);
-    width: 15px;
-  }
-  
-  .bar {
-    width: 30px;
-    height: 4px;
-    background-color: #ffffff;
-    margin: 6px 0;
-    transition: transform 0.7s ease;
-  }
-  .menu.open .cross {
-    opacity: 0; /* Reduce opacity when menu is open */
-  }
+
   /* Menu.css */
-  /* Define a CSS class for the box rotation */
-  .rotate-box {
-    transform: rotate(45deg);
-    transition: transform 0.3s ease; /* Add a smooth transition effect */
-  }
-  
+.rotate-up {
+  transform: rotate(-45deg);
+}
+
+.cross {
+  transform: rotate(0deg);
+  width: 15px; /* Full opacity */
+  transition: opacity 0.5s ease-in-out; /*Include opacity in the transition */
+}
+
+.rotate-down {
+  transform: translateY(-10px) rotate(45deg);
+  width: 15px;
+}
+
+.bar {
+  width: 30px;
+  height: 4px;
+  background-color: #ffffff;
+  margin: 6px 0;
+  transition: transform 0.7s ease;
+}
+.menu.open .cross {
+  opacity: 0; /* Reduce opacity when menu is open */
+}
+/* Menu.css */
+/* Define a CSS class for the box rotation */
+.rotate-box {
+  transform: rotate(45deg);
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
