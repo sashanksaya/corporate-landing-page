@@ -5,7 +5,7 @@ const Service = (props) => {
     <div className="col-md-4" style={{ position: "relative", float: "right" }}>
       <div className="card-container">
         <div className="image-container">
-          <img src={props.background} alt="Description of the image" />
+          <img src={props.background} alt="i love you" />
         </div>
         <div className="card-content">
           <div className="card-title">
