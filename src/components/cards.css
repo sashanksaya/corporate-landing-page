@@ -43,19 +43,9 @@
   margin-left: 0.5rem;
 }
 
-/* Media query for responsiveness */
-@media (max-width: 768px) {
-  .cards-container {
-    justify-content: space-between; /* Spread cards evenly on smaller screens */
-    gap: 10px; /* Reduce spacing between cards */
-  }
-  
-  .card-container {
-    width: calc(50% - 10px); /* 50% width for each card with reduced spacing */
-    max-width: none; /* Remove maximum width */
-  }
+
+.justify-content-around{
+  padding-right: 8%;
 }
-
-
 
 
