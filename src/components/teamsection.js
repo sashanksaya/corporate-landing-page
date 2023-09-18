@@ -1,6 +1,6 @@
 import React from "react";
 import "./teamsection.css";
-import Pic from "../images/main.jpg";
+import Shivu from "../images/main.jpg";
 
 const TeamSection = () => {
   return (
@@ -21,11 +21,11 @@ const TeamSection = () => {
       </div>
       <div className="profile-card">
         <div className="img">
-          <img src={Pic} alt="Profile" />
+          <img src={Shivu} alt="Profile" />
         </div>
         <div className="caption">
-          <h3>David Wornar</h3>
-          <p>Front End Developer</p>
+          <h3>Shivaprasad S Shetty</h3>
+          <p>DSATM Student</p>
           <div className="social-links">
             <i className="fa-brands fa-facebook"></i>
             <i className="fa-brands fa-twitter"></i>

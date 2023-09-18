@@ -13,7 +13,17 @@ body {
   font-size: 48px;
   text-align: center;
 }
-
+Upbutton{
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+}
+.upbutton{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 4;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
