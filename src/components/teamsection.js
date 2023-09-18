@@ -3,6 +3,8 @@ import "./teamsection.css";
 import Saya from "../images/cs.jpg";
 import Shivu from "../images/cs.jpg";
 import Prithvi from "../images/prithvi.jpg";
+// import Prithvi from "../images/prithvi.jpg";
+// import Prithvi from "../images/prithvi.jpg";
 
 const TeamSection = () => {
   return (

@@ -3,19 +3,19 @@ upbutton.css
     position: fixed;
     bottom: 20px;
     right: 20px;
-    width: 40px;
-    height: 40px;
+    width: 400px;
+    height: 400px;
     background-color: #d0c8c8;
     background-image: url(../images/logo.jpeg);
     background-position: center center;
     background-size: contain;
     border-radius: 50%;
-    font-size: 24px;
+    font-size: 48px;
     text-align: center;
     line-height: 40px;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
-    z-index: 4;
+    width: 30px;
   }
   
   .scroll-up-button:hover {
@@ -24,4 +24,8 @@ upbutton.css
   
   .scroll-up-button:focus {
     outline: none;
+  }
+  .fas fa-angle-double-up{
+    padding: 20px;
+    
   }

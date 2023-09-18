@@ -21,6 +21,8 @@ function Menu({ isOpen, onClose }) {
         <li><a href="/services">Services</a></li>
         <li><a href="/">Our Clients</a></li>
         <li><a href="mailto:shivaprasadshetty112@gmail.com">Contact us</a></li>
+        <li><a href="/">Login</a></li>
+        
         
         
       </ul>
