@@ -1,6 +1,14 @@
 import React, { useEffect } from "react";
 import "./scrolling.css";
-
+import One from '../images/company1.jpg'
+import Two from '../images/company2.jpeg'
+import Three from '../images/company3.jpg'
+import Four from '../images/company4.jpg'
+import Five from '../images/company5.jpeg'
+import Six from '../images/company6.jpg'
+import Seven from '../images/company7.png'
+import Eight from '../images/company8.jpg'
+import Nine from '../images/company9.png'
 function CodingWithRobby() {
   useEffect(() => {
     const copy = document.querySelector(".logos-slide").cloneNode(true);
@@ -11,14 +19,15 @@ function CodingWithRobby() {
     <div>
       <div className="logos">
         <div className="logos-slide">
-          <img src="./logos/3m.svg" alt="3M" />
-          <img src="./logos/barstool-store.svg" alt="Barstool Store" />
-          <img src="./logos/budweiser.svg" alt="Budweiser" />
-          <img src="./logos/buzzfeed.svg" alt="Buzzfeed" />
-          <img src="./logos/forbes.svg" alt="Forbes" />
-          <img src="./logos/macys.svg" alt="Macy's" />
-          <img src="./logos/menshealth.svg" alt="Men's Health" />
-          <img src="./logos/mrbeast.svg" alt="MrBeast" />
+          <img src={One} alt="3M" />
+          <img src={Two} alt="Barstool Store" />
+          <img src={Three} alt="Budweiser" />
+          <img src={Four} alt="Buzzfeed" />
+          <img src={Five} alt="Forbes" />
+          <img src={Six} alt="Macy's" />
+          <img src={Seven} alt="Men's Health" />
+          <img src={Eight} alt="MrBeast" />
+          <img src={Nine} alt="MrBeast" />
         </div>
       </div>
     </div>

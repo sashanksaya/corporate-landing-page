@@ -1,0 +1,40 @@
+/* Login.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Centers the login box vertically on the screen */
+    background-color: rgba(255, 255, 255, 0.7); /* White translucent background */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .login-box {
+    width: 50vw; /* Half of the screen width */
+    height: 50vw; /* Square shape */
+    max-width: 400px; /* Set a maximum width */
+    max-height: 400px; /* Set a maximum height */
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .signup-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .signup-button:hover {
+    background-color: #0056b3;
+  }
+  
