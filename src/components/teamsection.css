@@ -12,9 +12,11 @@
   color: white; ;
 }
 
-.prithvi{
-  height: 140px;
+.size{
+  height:140px;
 }
+
+
 
 .home-container {
   width: 100%;
@@ -29,15 +31,16 @@
   position: relative;
   width: 220px;
   height: 200px;
-  background-color: antiquewhite;
+  background-color: aliceblue;
   padding: 30px;
   border-radius: 50%;
-  box-shadow: -5px 8px 45px #676666;
+  box-shadow: -5px 8px 45px rgb(132, 130, 130);
   transition: all 0.4s;
   margin: 0 20px;
 }
 
 .profile-card:hover {
+  box-shadow: -5px 8px 45px #676666;
   border-radius: 10px;
   height: 260px;
 }

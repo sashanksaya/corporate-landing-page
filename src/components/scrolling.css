@@ -19,9 +19,10 @@
   }
   
   .logos {
+    opacity: 0.5;
     overflow: hidden;
     padding: 60px 0;
-    background:blue;
+    background:rgb(43, 43, 45);
     
     white-space: nowrap;
     position: relative;
