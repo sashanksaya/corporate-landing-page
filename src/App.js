@@ -21,7 +21,7 @@ function App() {
         </div>
         <Upbutton />
         <div className="team" id="team">
-          <h1 className="us">Our Team</h1>
+          <h1 className="us">About Us</h1>
           <TeamSection />
         </div>
         <div className="scrolling">
