@@ -1,16 +1,23 @@
 import React from "react";
 import "./teamsection.css";
-import Shivu from "../images/main.jpg";
+import Saya from "../images/cs.jpg";
+import Shivu from "../images/cs.jpg";
+import Prithvi from "../images/prithvi.jpg";
+// import Prithvi from "../images/prithvi.jpg";
+// import Prithvi from "../images/prithvi.jpg";
 
 const TeamSection = () => {
   return (
     <div className="home-container">
+      <div>
+        <h2 className="heading"> Our Team</h2>
+      </div>
       <div className="profile-card">
         <div className="img">
-          <img src="./man.jpg" alt="Profile" />
+          <img src={Saya} alt="Profile" />
         </div>
         <div className="caption">
-          <h3>Tom Cruise</h3>
+          <h3>ShivaPrasad Shetty</h3>
           <p>Full Stack Developer</p>
           <div className="social-links">
             <i className="fa-brands fa-facebook"></i>
@@ -21,11 +28,11 @@ const TeamSection = () => {
       </div>
       <div className="profile-card">
         <div className="img">
-          <img src={Shivu} alt="Profile" />
+          <img src={Saya} alt="Profile" />
         </div>
         <div className="caption">
-          <h3>Shivaprasad S Shetty</h3>
-          <p>DSATM Student</p>
+          <h3>Sashank Saya</h3>
+          <p>Full Stack Developer</p>
           <div className="social-links">
             <i className="fa-brands fa-facebook"></i>
             <i className="fa-brands fa-twitter"></i>
@@ -35,10 +42,10 @@ const TeamSection = () => {
       </div>
       <div className="profile-card">
         <div className="img">
-          <img src="./man.jpg" alt="Profile" />
+          <img src={Saya} alt="Profile" />{" "}
         </div>
         <div className="caption">
-          <h3>David Wornar</h3>
+          <h3>Tanush T</h3>
           <p>Front End Developer</p>
           <div className="social-links">
             <i className="fa-brands fa-facebook"></i>
@@ -49,10 +56,10 @@ const TeamSection = () => {
       </div>
       <div className="profile-card">
         <div className="img">
-          <img src="./man.jpg" alt="Profile" />
+          <img src={Saya} alt="Profile" />{" "}
         </div>
         <div className="caption">
-          <h3>David Wornar</h3>
+          <h3>Shashank K Murthy</h3>
           <p>Front End Developer</p>
           <div className="social-links">
             <i className="fa-brands fa-facebook"></i>
@@ -63,10 +70,10 @@ const TeamSection = () => {
       </div>
       <div className="profile-card">
         <div className="img">
-          <img src="./man.jpg" alt="Profile" />
+          <img className="prithvi" src={Prithvi} alt="Profile" />{" "}
         </div>
         <div className="caption">
-          <h3>Vin Diesel</h3>
+          <h3>T Prithvi Charan</h3>
           <p>Back End Developer</p>
           <div className="social-links">
             <i className="fa-brands fa-facebook"></i>

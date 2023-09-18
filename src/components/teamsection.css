@@ -7,9 +7,18 @@
   font-family: "Poppins", sans-serif;
 }
 
+.heading{
+  padding-left: 10px;
+  color: white; ;
+}
+
+.prithvi{
+  height: 140px;
+}
+
 .home-container {
   width: 100%;
-  height: 100vh;
+  height: 75vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,8 +28,8 @@
 .profile-card {
   position: relative;
   width: 220px;
-  height: 220px;
-  background-color: #fff;
+  height: 200px;
+  background-color: antiquewhite;
   padding: 30px;
   border-radius: 50%;
   box-shadow: -5px 8px 45px #676666;
@@ -89,6 +98,9 @@
   color: #0c52a1;
 }
 @media screen and (max-width: 768px) {
+    .heading{
+      margin-bottom: 50px;
+    }
     .home-container {
       flex-direction: column; /* Stack cards vertically */
       align-items: center;
