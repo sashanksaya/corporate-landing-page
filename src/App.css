@@ -8,6 +8,12 @@ body {
   text-align: center;
 }
 
+.clientsheading{
+  color: white;
+  font-size: 48px;
+  text-align: center;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -20,7 +26,19 @@ body {
 /* Media query for responsiveness */
 @media (max-width: 768px) {
   .servicesheading {
-    font-size: medium; /* Adjust font size for smaller screens */
+    font-size: small; /* Adjust font size for smaller screens */
+  }
+  .clientsheading {
+    font-size: small; /* Adjust font size for smaller screens */
+  }
+
+  .team{
+    margin-top: 100px;
+  }
+
+  .scrolling{
+    position: relative;
+    margin-bottom: 1000px;
   }
 
   /* Adjust card layout for smaller screens */
@@ -43,6 +61,9 @@ body {
   .cards-container {
     gap: 10px; /* Adjust the spacing between cards for Mobile L */
   }
+  .clientsheading {
+    font-size: small; /* Adjust font size for smaller screens */
+  }
 }
 
 /* Media query for screens with a maximum width of 375px (Mobile M) */
@@ -54,12 +75,18 @@ body {
   .card-container {
     width: calc(50% - 10px); /* 50% width for each card with spacing for Mobile M */
   }
+  .clientsheading {
+    font-size: small; /* Adjust font size for smaller screens */
+  }
 }
 
 /* Media query for screens with a maximum width of 325px (Mobile S) */
 @media (max-width: 325px) {
   .cards-container {
     gap: 5px; /* Adjust the spacing between cards for Mobile S */
+  }
+  .clientsheading {
+    font-size: small; /* Adjust font size for smaller screens */
   }
 
   .card-container {

@@ -3,8 +3,10 @@ import "./App.css";
 import Navbar from "./components/navbar";
 import TopVideo from "./components/topvideo";
 import Card from "./components/cards";
-import background from "./images/background.jpg";
 import Footer from "./components/footer";
+import Scroll from "./components/scrolling";
+import Upbutton from "./components/upbutton";
+import TeamSection from "./components/teamsection";
 
 function App() {
   return (
@@ -12,30 +14,19 @@ function App() {
       <Navbar />
       <main>
         <TopVideo />
-        <div>
-          <h1 className="servicesheading">Services</h1>
-          <div className="cards-container">
-            <Card
-              title="Service 1"
-              description="Description of Service 1 goes here."
-              background={background}
-            />
-            <Card
-              title="Service 2"
-              description="Description of Service 2 goes here."
-              background={background}
-            />
-            <Card
-              title="Service 3"
-              description="Description of Service 3 goes here."
-              background={background}
-            />
-            <Card
-              title="Service 4"
-              description="Description of Service 4 goes here."
-              background={background}
-            />
-          </div>
+        {/* <Crousel /> */}
+        <h1 className="servicesheading">Services</h1>
+        <div className="cards-container">
+          <Card />
+        </div>
+        <Upbutton />
+        <div className="team" id="team">
+          <h1 className="us">Our Team</h1>
+          <TeamSection />
+        </div>
+        <div className="scrolling">
+          <h1 className="clientsheading">Portfolio</h1>
+          <Scroll />
         </div>
         <Footer />
       </main>
@@ -44,5 +35,3 @@ function App() {
 }
 
 export default App;
-
-// App.jsx
