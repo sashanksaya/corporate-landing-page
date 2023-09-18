@@ -19,7 +19,11 @@ function App() {
         <div className="cards-container">
           <Card />
         </div>
+        <div className="upbutton">
         <Upbutton />
+
+        </div>
+        
         <div className="team" id="team">
           <h1 className="us">Our Team</h1>
           <TeamSection />
