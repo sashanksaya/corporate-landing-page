@@ -1,7 +1,7 @@
 import React from "react";
 import "./teamsection.css";
-import Saya from "../images/cs.jpg";
-import Shivu from "../images/cs.jpg";
+import Saya from "../images/saya.jpg";
+import Shivu from "../images/shivu.jpg";
 import Prithvi from "../images/prithvi.jpg";
 // import Prithvi from "../images/prithvi.jpg";
 // import Prithvi from "../images/prithvi.jpg";
@@ -14,7 +14,7 @@ const TeamSection = () => {
       </div>
       <div className="profile-card">
         <div className="img">
-          <img src={Saya} alt="Profile" />
+          <img className="size" src={Shivu} alt="Profile" />
         </div>
         <div className="caption">
           <h3>ShivaPrasad Shetty</h3>
@@ -28,7 +28,7 @@ const TeamSection = () => {
       </div>
       <div className="profile-card">
         <div className="img">
-          <img src={Saya} alt="Profile" />
+          <img className="size" src={Saya} alt="Profile" />
         </div>
         <div className="caption">
           <h3>Sashank Saya</h3>
@@ -42,7 +42,7 @@ const TeamSection = () => {
       </div>
       <div className="profile-card">
         <div className="img">
-          <img src={Saya} alt="Profile" />{" "}
+          {/* <img classname = "size" src={Saya} alt="Profile" />{" "} */}
         </div>
         <div className="caption">
           <h3>Tanush T</h3>
@@ -56,7 +56,7 @@ const TeamSection = () => {
       </div>
       <div className="profile-card">
         <div className="img">
-          <img src={Saya} alt="Profile" />{" "}
+          {/* <img classname = "size" src={Saya} alt="Profile" />{" "} */}
         </div>
         <div className="caption">
           <h3>Shashank K Murthy</h3>
@@ -70,7 +70,7 @@ const TeamSection = () => {
       </div>
       <div className="profile-card">
         <div className="img">
-          <img className="prithvi" src={Prithvi} alt="Profile" />{" "}
+          <img className="size" src={Prithvi} alt="Profile" />{" "}
         </div>
         <div className="caption">
           <h3>T Prithvi Charan</h3>
