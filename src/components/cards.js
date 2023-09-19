@@ -31,6 +31,27 @@ function Card(props) {
             background={fo}
           />
         </Col>
+        <Col>
+          <Service
+            title="Finance Operations"
+            description="Collaborate on invoices, cash collection requests, bookkeeping queries, and more, to ensure company operations run smoothly."
+            background={fo}
+          />
+        </Col>
+        <Col>
+          <Service
+            title="Finance Operations"
+            description="Collaborate on invoices, cash collection requests, bookkeeping queries, and more, to ensure company operations run smoothly."
+            background={fo}
+          />
+        </Col>
+        <Col>
+          <Service
+            title="Finance Operations"
+            description="Collaborate on invoices, cash collection requests, bookkeeping queries, and more, to ensure company operations run smoothly."
+            background={fo}
+          />
+        </Col>
       </Row>
     </>
   );

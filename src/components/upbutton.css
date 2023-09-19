@@ -15,7 +15,7 @@ upbutton.css
     line-height: 40px;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
-    width: 30px;
+    padding: 40px;
   }
   
   .scroll-up-button:hover {
@@ -26,6 +26,7 @@ upbutton.css
     outline: none;
   }
   .fas fa-angle-double-up{
-    padding: 20px;
+    padding: 200px;
+    size: 40px;
     
   }
