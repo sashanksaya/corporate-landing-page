@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import Corpify from '../images/corpify2.png'
+import Corpify from "../images/corpify2.png";
 
 const Footer = () => {
   return (
@@ -70,7 +70,24 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      {/* </div> */}
+      <div className="input">
+        <h3>Enter your contact info</h3>
+        <label>Name </label>
+        <input type="text" />
+        <br></br>
+        <br></br>
+        <label>Email </label>
+        <input type="text" />
+        <br></br>
+        <br></br>
+        <label>Phone-no </label>
+        <input type="text" />
+        <br></br>
+        <br></br>
+        <button type="submit" className="submit-button">
+          Submit
+        </button>
+      </div>
       <div className="footer-bottom">
         <div className="container">
           <small className="text-center">

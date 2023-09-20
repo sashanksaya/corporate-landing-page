@@ -4,6 +4,9 @@ import cs from "../images/cs.jpg";
 import fo from "../images/fo.jpg";
 import po from "../images/po.jpg";
 import io from "../images/istm.jpg";
+import co from "../images/cloud.jpg";
+import hr from "../images/hr.jpg";
+
 import { Row, Col } from "react-bootstrap";
 import Service from "./Service";
 
@@ -41,16 +44,16 @@ function Card(props) {
         </Col>
         <Col>
           <Service
-            title="Finance Operations"
-            description="Collaborate on invoices, cash collection requests, bookkeeping queries, and more, to ensure company operations run smoothly."
-            background={fo}
+            title="Cloud Computing Solutions:"
+            description="Offering cloud-based services, such as infrastructure as a service (IaaS), platform as a service (PaaS), and software as a service (SaaS) to enhance scalability and flexibility."
+            background={co}
           />
         </Col>
         <Col>
           <Service
-            title="Finance Operations"
-            description="Collaborate on invoices, cash collection requests, bookkeeping queries, and more, to ensure company operations run smoothly."
-            background={fo}
+            title="Human Resource"
+            description="Our HR services cover payroll, talent acquisition, benefits, and compliance support. We streamline workforce management, boost employee satisfaction, and provide technology-driven solutions and expert guidance."
+            background={hr}
           />
         </Col>
       </Row>

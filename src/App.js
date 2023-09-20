@@ -20,10 +20,9 @@ function App() {
           <Card />
         </div>
         <div className="upbutton">
-        <Upbutton />
-
+          <Upbutton />
         </div>
-        
+
         <div className="team" id="team">
           <h1 className="us">About Us</h1>
           <TeamSection />
