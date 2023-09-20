@@ -3,8 +3,8 @@ import "./teamsection.css";
 import Saya from "../images/saya.jpg";
 import Shivu from "../images/shivu.jpg";
 import Prithvi from "../images/prithvi.jpg";
-// import Prithvi from "../images/prithvi.jpg";
-// import Prithvi from "../images/prithvi.jpg";
+import Santhi from "../images/santhi.jpg";
+import Tanush from "../images/tanush.jpg";
 
 const TeamSection = () => {
   return (
@@ -42,7 +42,7 @@ const TeamSection = () => {
       </div>
       <div className="profile-card">
         <div className="img">
-          {/* <img classname = "size" src={Saya} alt="Profile" />{" "} */}
+          <img className="size" src={Tanush} alt="Profile" />{" "}
         </div>
         <div className="caption">
           <h3>Tanush T</h3>
@@ -56,7 +56,7 @@ const TeamSection = () => {
       </div>
       <div className="profile-card">
         <div className="img">
-          {/* <img classname = "size" src={Saya} alt="Profile" />{" "} */}
+          <img className="size" src={Santhi} alt="Profile" />{" "}
         </div>
         <div className="caption">
           <h3>Shashank K Murthy</h3>
