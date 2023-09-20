@@ -1,6 +1,6 @@
 /* footer.css */
 .footer {
-    margin-top: 500px;
+    margin-top: 200px;
     background-color: #333;
     color: #fff;
     padding: 40px 0;
@@ -47,6 +47,7 @@
   
   /* Footer bottom styles */
   .footer-bottom {
+    margin-top: 150px;
     background-color: #222;
     padding: 10px 0;
   }
@@ -61,4 +62,26 @@
   text-align: center;
 }
 
+.input{
+  margin-top: 50px;
+  margin-left: 75%;
+}
   
+.submit-button {
+  font-weight: bold;
+  background-color: #80a7cf; /* Blue background color */
+  color: #000000; /* White text color */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Padding around the button text */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Cursor style on hover */
+
+}
+
+.submit-button:hover {
+  background-color: #212122; /* Darker blue on hover */
+  color: white;
+}
+
+
+
