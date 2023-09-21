@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/corporate-landing-page/static/css/main.9c122806.css",
+    "main.js": "/corporate-landing-page/static/js/main.9ed61c75.js",
+    "static/js/787.28cb0dcd.chunk.js": "/corporate-landing-page/static/js/787.28cb0dcd.chunk.js",
+    "static/media/back.mp4": "/corporate-landing-page/static/media/back.92680ed89f330d904564.mp4",
+    "static/media/hr.jpg": "/corporate-landing-page/static/media/hr.44bbcd96237d303705cd.jpg",
+    "static/media/santhi.jpg": "/corporate-landing-page/static/media/santhi.7ad61943e3c83365e67a.jpg",
+    "static/media/saya.jpg": "/corporate-landing-page/static/media/saya.5d3170df81552cc0a5c0.jpg",
+    "static/media/shivu.jpg": "/corporate-landing-page/static/media/shivu.b1e803a205a9b4539ede.jpg",
+    "static/media/prithvi.jpg": "/corporate-landing-page/static/media/prithvi.4bdf64c03f779793e43b.jpg",
+    "static/media/cloud.jpg": "/corporate-landing-page/static/media/cloud.ed11be66886e40142271.jpg",
+    "static/media/tanush.jpg": "/corporate-landing-page/static/media/tanush.5b05f26f8c90f04fe133.jpg",
+    "static/media/fo.jpg": "/corporate-landing-page/static/media/fo.20b375741590586df286.jpg",
+    "static/media/corpify2.png": "/corporate-landing-page/static/media/corpify2.de066533d667fce6a4eb.png",
+    "static/media/po.jpg": "/corporate-landing-page/static/media/po.5cbbd9283a11d521d14a.jpg",
+    "static/media/istm.jpg": "/corporate-landing-page/static/media/istm.14ce08e138f3a47cc030.jpg",
+    "static/media/cs.jpg": "/corporate-landing-page/static/media/cs.0b829e39ddb4514026b3.jpg",
+    "static/media/logo.jpeg": "/corporate-landing-page/static/media/logo.b1479414fac81d2aa016.jpeg",
+    "static/media/company3.jpg": "/corporate-landing-page/static/media/company3.d68d92f7d789c86f5be3.jpg",
+    "static/media/company4.jpg": "/corporate-landing-page/static/media/company4.d8e59db998cf94a65ed8.jpg",
+    "static/media/company8.jpg": "/corporate-landing-page/static/media/company8.c5721e4d309f6f4c94ca.jpg",
+    "static/media/company1.jpg": "/corporate-landing-page/static/media/company1.f61fc132a1da46cb965f.jpg",
+    "static/media/company7.png": "/corporate-landing-page/static/media/company7.3293bdbcc92b8ee4cc88.png",
+    "static/media/company9.png": "/corporate-landing-page/static/media/company9.d51a9bc135568a069085.png",
+    "static/media/company6.jpg": "/corporate-landing-page/static/media/company6.3960fa26749d88869b9f.jpg",
+    "index.html": "/corporate-landing-page/index.html",
+    "main.9c122806.css.map": "/corporate-landing-page/static/css/main.9c122806.css.map",
+    "main.9ed61c75.js.map": "/corporate-landing-page/static/js/main.9ed61c75.js.map",
+    "787.28cb0dcd.chunk.js.map": "/corporate-landing-page/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c122806.css",
+    "static/js/main.9ed61c75.js"
+  ]
+}
