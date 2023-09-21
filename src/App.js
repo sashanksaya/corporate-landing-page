@@ -28,7 +28,7 @@ function App() {
           <TeamSection />
         </div>
         <div className="scrolling">
-          <h1 className="clientsheading">Portfolio</h1>
+          <h1 className="clientsheading">Our Clients</h1>
           <Scroll />
         </div>
         <Footer />
