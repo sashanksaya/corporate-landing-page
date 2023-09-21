@@ -11,12 +11,15 @@ import TeamSection from "./components/teamsection";
 function App() {
   return (
     <div className="App">
+      <div className="navbar">
       <Navbar />
+      </div>
+      
       <main>
         <TopVideo />
         {/* <Crousel /> */}
-        <h1 className="servicesheading">Services</h1>
-        <div className="cards-container">
+        <h1 className="servicesheading" id="servicesheading">Services</h1>
+        <div className="cards-container" id="cards-container">
           <Card />
         </div>
         <div className="upbutton">
@@ -27,11 +30,14 @@ function App() {
           <h1 className="us">About Us</h1>
           <TeamSection />
         </div>
-        <div className="scrolling">
+        <div className="scrolling" id="scrolling">
           <h1 className="clientsheading">Our Clients</h1>
           <Scroll />
         </div>
+        <div id="footer">
         <Footer />
+        </div>
+        
       </main>
     </div>
   );

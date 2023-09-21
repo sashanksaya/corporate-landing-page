@@ -18,19 +18,22 @@ function Menu({ isOpen, onClose }) {
       </div>
       <ul className="menu-links">
         <li>
-          <a href="/">Home</a>
+          <a href="#navbar">Home</a>
         </li>
         <li>
-          <a href="/services">Services</a>
+          <a href="#cards-container">Services</a>
         </li>
         <li>
-          <a href="/">Our Clients</a>
+          <a href="#scrolling">Our Clients</a>
+        </li>
+        <li>
+          <a href="#us">Our Team</a>
         </li>
         <li>
           <a href="mailto:shivaprasadshetty112@gmail.com">Contact us</a>
         </li>
         <li>
-          <a href="/login">Login</a>
+          <a href="#footer">Login</a>
         </li>
       </ul>
     </div>
