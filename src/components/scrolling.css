@@ -6,7 +6,7 @@
   
   body {
     background: black;
-    box-shadow: 10px;
+    box-shadow: 10px #ffffff;
   }
   
   @keyframes slide {
@@ -22,7 +22,9 @@
     opacity: 0.5;
     overflow: hidden;
     padding: 60px 0;
-    background:rgb(43, 43, 45);
+    background:rgb(148, 148, 153);
+    border: 10px solid ;
+    box-shadow: 20px #ffffff;
     
     white-space: nowrap;
     position: relative;
